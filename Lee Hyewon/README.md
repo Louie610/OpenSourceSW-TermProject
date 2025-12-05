@@ -35,4 +35,4 @@ python main.py
 
 -OpenCV 공식 문서: https://opencv.org/
 -NumPy 공식 문서: https://numpy.org/
--GitHub Codespaces 사용법: https://docs.github.com/en/codespaces
+-GitHub Codespaces 사용법: https://docs.github.com/en/codespaces!
