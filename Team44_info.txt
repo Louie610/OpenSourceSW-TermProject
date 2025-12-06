@@ -1,0 +1,9 @@
+Team 44 - Open Source Software Term Project
+
+GitHub Repository:
+https://github.com/Louie610/OpenSourceSW-TermProject
+
+Team 44
+- Leader: Kim Jeongho 202337619     /   GitHub ID: Louie610
+- Member: Kim Seongsoo 202337617    /   GitHub ID: Kim-seongsoo
+- Member: Lee Hyewon 202334976      /   GitHub ID: hyewon-code
