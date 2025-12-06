@@ -4,9 +4,7 @@ from pathlib import Path
 import cv2
 from filter import apply_cartoon_filter, apply_sketch_filter
 
-
 VALID_MODES = ("cartoon", "sketch")
-
 
 def parse_args() -> argparse.Namespace:
     """Parse command-line arguments."""
@@ -45,7 +43,6 @@ def validate_paths(input_path_str: str, output_path_str: str) -> tuple[Path, Pat
     if not input_path.is_file():
         raise FileNotFoundError(f"Input image not found: {input_path}")
 
-    # Create parent directory for output file if it does not exist
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     return input_path, output_path
@@ -65,14 +62,11 @@ def main() -> None:
     elif args.mode == "sketch":
         result = apply_sketch_filter(img)
     else:
-        # This should not happen because argparse restricts choices,
-        # but we keep it for safety.
         raise ValueError(f"Unsupported mode: {args.mode}. Use {VALID_MODES}.")
 
     success = cv2.imwrite(str(output_path), result)
     if not success:
         raise RuntimeError(f"Failed to write output image: {output_path}")
-
 
 if __name__ == "__main__":
     main()

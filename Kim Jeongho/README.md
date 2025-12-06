@@ -8,7 +8,6 @@ This project provides two image filters implemented with OpenCV:
 
 Users can run the program with command-line arguments and choose a filter mode.
 
-
 ## Demo
 Input image: images/input_example.jpg  
 Cartoon output: images/output_cartoon.png  
@@ -27,16 +26,13 @@ Kim Jeongho/
   requirements.txt
   README.md
 
-
 ## Requirements
 Python 3.10+  
 opencv-python  
 numpy  
 
-
 ## Installation
 pip3 install -r requirements.txt
-
 
 ## How to Run
 
