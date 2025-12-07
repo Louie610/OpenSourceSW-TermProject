@@ -56,10 +56,9 @@ Navigate into a member folder and run their main script.
 General form:
     python3 main.py --input <input_path> --output <output_path> --mode <filter>
 
-Exact commands vary by member.  
-Refer to each folder’s README.md.
+Exact commands vary by member, Refer to each folder’s README.md.
 
 
 ## Additional Information
 
-The file "Team44_info.txt" contains the repository link, team member list, and required submission information.
+The file "Team44_info.txt" contains the repository link, team member list, and github ID.
